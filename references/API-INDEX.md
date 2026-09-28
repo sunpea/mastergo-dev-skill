@@ -1,0 +1,217 @@
+# MasterGo 开发文档索引
+
+用法：先在本文件定位到目标文件，再 Read 那个文件。不要全量读 references/。
+
+共 109 页。
+
+## apis/
+- **API Reference** — `apis/_index.md`
+  - [mg](./mastergo.html) · `setTimeout` · `setInterval` · `clearTimeout` · `clearInterval` · `requestAnimationFrame` · `cancelAnimationFrame` · `console`
+- **BooleanOperationNode** — `apis/booleanOperationNode.md`
+  - Base node properties · `type` · `clone` · `id` · `remove` · `removed` · `parent` · `name`
+- **mg.clientStorage** — `apis/clientStorage.md`
+  - `getAsync` · `setAsync` · `keysAsync` · `deleteAsync`
+- **mg.codegen** — `apis/codegen.md`
+  - on · generateDSL · generate · codeChange · setComponentTemplate · getCode · getDSL · getCodeByDSL
+- **ComponentNode** — `apis/componentNode.md`
+  - Base node properties · `type` · `clone` · `id` · `remove` · `removed` · `parent` · `name`
+- **ComponentSetNode** — `apis/componentSetNode.md`
+  - Base node properties · `type` · `clone` · `id` · `remove` · `removed` · `parent` · `name`
+- **ConnectorNode** — `apis/connectorNode.md`
+  - Base node properties · `type` · `clone` · `id` · `remove` · `removed` · `parent` · `name`
+- **DocumentNode** — `apis/documentNode.md`
+  - Base node properties · `id` · `type` · `name` · `currentPage` · Children-related properties · `children` · `findAll`
+- **EllipseNode** — `apis/ellipseNode.md`
+  - Base node properties · `type` · `clone` · `id` · `remove` · `removed` · `parent` · `name`
+- **FrameNode** — `apis/frameNode.md`
+  - Base node properties · `type` · `clone` · `id` · `remove` · `removed` · `parent` · `name`
+- **GroupNode** — `apis/groupNode.md`
+  - Base node properties · `type` · `clone` · `id` · `remove` · `removed` · `parent` · `name`
+- **InstanceNode** — `apis/instanceNode.md`
+  - Base node properties · `type` · `clone` · `id` · `remove` · `removed` · `parent` · `name`
+- **IntelligentContainerNode** — `apis/intelligentContainerNode.md`
+  - GLSL 代码格式要求说明 · Base node properties · `type` · `clone` · `id` · `remove` · `removed` · `parent`
+- **LineNode** — `apis/lineNode.md`
+  - Base node properties · `type` · `clone` · `id` · `remove` · `removed` · `parent` · `name`
+- **mg** — `apis/mastergo.md`
+  - 属性 · `apiVersion` · `document` · `documentId` · `command` · `mixed` · `ui` · `themeColor`
+- **Node Types** — `apis/nodeTypes.md`
+- **mg.notify** — `apis/notify.md`
+  - NotifyOptions · NotificationHandler
+- **PageNode** — `apis/pageNode.md`
+  - Base node properties · `type` · `clone` · `id` · `remove` · `removed` · `parent` · `name`
+- **PenNode** — `apis/penNode.md`
+  - Base node properties · `type` · `clone` · `id` · `remove` · `removed` · `parent` · `name`
+- **PolygonNode** — `apis/polygonNode.md`
+  - Base node properties · `type` · `clone` · `id` · `remove` · `removed` · `parent` · `name`
+- **RectangleNode** — `apis/rectangleNode.md`
+  - Base node properties · `type` · `clone` · `id` · `remove` · `removed` · `parent` · `name`
+- **SectionNode** — `apis/sectionNode.md`
+  - Base node properties · `type` · `clone` · `id` · `remove` · `removed` · `parent` · `name`
+- **SliceNode** — `apis/sliceNode.md`
+  - Base node properties · `type` · `clone` · `id` · `remove` · `removed` · `parent` · `name`
+- **StarNode** — `apis/starNode.md`
+  - Base node properties · `type` · `clone` · `id` · `remove` · `removed` · `parent` · `name`
+- **TextNode** — `apis/textNode.md`
+  - Loading fonts · Missing fonts · Text node properties · `hasMissingFont` · `textAlignHorizontal` · `textAlignVertical` · `textAutoResize` · `paragraphSpacing`
+- **TextSublayerNode** — `apis/textSublayerNode.md`
+  - Base Traits · `id` · Text Traits · `hasMissingFont` · `textAlignHorizontal` · `textAlignVertical` · `textAutoResize` · `paragraphSpacing`
+- **mg.ui** — `apis/ui.md`
+  - `show` · `hide` · `resize` · `close` · `moveTo` · `viewport` · `postMessage` · `onmessage`
+- **mg.variables** — `apis/variables.md`
+  - 变量集合 · `getCollections` · `getCollectionById` · `createCollection` · `renameCollection` · `deleteCollection` · `moveCollection` · Collection 类型
+- **mg.viewport** — `apis/viewport.md`
+  - `center` · `zoom` · `bound` · `rulerVisible` · `layoutGridVisible` · `positionOnDom` · `layout` · `scrollAndZoomIntoView`
+- **mg.WebSocket** — `apis/websocket.md`
+  - 静态常量 · `connect` · WebSocketHandle · 属性 · 方法 · 与浏览器原生 WebSocket 的差异 · 完整示例 · 插件端 (mg.WebSocket)
+
+## devmode/
+- **Component Prop** — `devmode/component-template/component-prop.md`
+  - ComponentPropItem
+- **ComponentTemplate** — `devmode/component-template/component-template.md`
+- **Component** — `devmode/component-template/component.md`
+- **开发指南** — `devmode/component-template/guide.md`
+  - 准备设计稿 · 开发插件逻辑 · 添加一个组件配置 · 为组件配置属性 · 为组件配置插槽 · 预览效果 · 发布配置模型
+- **Icon** — `devmode/component-template/icon.md`
+  - Icon
+- **/devmode/component-template/index** — `devmode/component-template/index.md`
+  - 什么是配置模型？ · 调试阶段 · 接口规范
+- **Slot** — `devmode/component-template/slot.md`
+  - ComponentSlot · GetValueType
+- **研发模式（DevMode）** — `devmode/guide/_index.md`
+  - 什么是研发模式 · 研发模式中的插件
+- **开发指南** — `devmode/guide/guide.md`
+  - manifest.json 配置
+- **研发模式（DevMode）** — `devmode/guide/index.md`
+  - 什么是研发模式 · 研发模式中的插件
+- **DSLSettings** — `devmode/types/dslsettings.md`
+- **简介** — `devmode/types/index.md`
+  - 开始 · 示例
+- **MGDSLData** — `devmode/types/mgdsldata.md`
+  - MGDSLData · JSDSLData · AndroidDSLData · IOSDSLData · Framework · NodeId · StyleMap · FileId
+- **MGDSLFile** — `devmode/types/mgdslfile.md`
+  - Data、Prop · Method · Computed · ImportItem
+- **MGNode** — `devmode/types/mgnode.md`
+  - MGNode · MGLayerNode · MGComponentNode · MGInstanceNode · MGCustomNode · MGTextNode · NodeType · MGOperationNode
+- **NodeLayout** — `devmode/types/nodelayout.md`
+  - NodeLayout · AutoLayout · AbsoluteLayout · RelatedAutoLayout · Dimension
+- **NodeStyle** — `devmode/types/nodestyle.md`
+  - NodeStyle · NodeStyleType · ClassStyle · AttributeItem
+- **Token** — `devmode/types/token.md`
+  - TokenCommonItem · TokenTextSubItem
+
+## guide/
+- **简介** — `guide/intro.md`
+  - 节点树及其层级结构 · 插件的运行机制 · 为插件构建用户界面 · 访问 MasterGO 的文件内容 · 主线程脚本与用户界面间的信息交流
+- **开发指南** — `guide/setup.md`
+  - manifest.json · 创建一个插件 · 构建用户界面 · 调试插件 · 向主线程代码传递消息 · 调用插件 API 创建椭圆图层 · 插件管理与插件发布 · 插件发布
+- **教程** — `guide/tutorials.md`
+  - 访问节点 · 节点类型 · 获取当前选择的节点 · 遍历节点 · 属性编辑 · 发送网络请求 · 处理文本 · 多段样式
+
+## plugin-typings/
+- **Plugin Typings** — `plugin-typings/_index.md`
+- **Usages** — `plugin-typings/usages.md`
+  - 安装
+
+## rest-api/
+- **MasterGo OpenAPI** — `rest-api/_index.md`
+  - 说明 · 标签说明 · 排序说明 · 其他说明 · 接口鉴权 · 获取 AccessToken · 登录注册 · 私有化 注册用户
+
+## types/
+- **TypeScript Types** — `types/_index.md`
+- **Action** — `types/action.md`
+  - ActionType · Navigation
+- **ArcData** — `types/arcData.md`
+- **BlendMode** — `types/blend.md`
+- **ChildrenMixin** — `types/childrenMixin.md`
+- **ComponentPropertiesRelated** — `types/componentPropertiesRelated.md`
+  - ComponentPropertiesMixin · ComponentPropertyValue · ComponentPropertyType · ComponentProperties · ComponentPropertyReferences · ComponentItemVal
+- **ConnectorEndpoint** — `types/connectorEndpoint.md`
+  - ConnectorEndpointPosition · ConnectorEndpointConnected
+- **Constraints** — `types/constraints.md`
+  - ConstraintType
+- **DropEvent** — `types/dropEvent.md`
+  - PluginDrop
+- **Easing** — `types/easing.md`
+  - EasingType
+- **Effect** — `types/effect.md`
+  - ShadowEffect · BlurEffect · LiquidGlassEffect · MotionBlurEffect · ReferenceEffect
+- **ExportSettings** — `types/exportSettings.md`
+  - ExportSettingsConstraints · ExportFileFormat
+- **FlowStartingPoint** — `types/flowStartingPoint.md`
+- **Font** — `types/font.md`
+  - FontName · FontAlias
+- **Hyperlink** — `types/hyperlink.md`
+  - HyperlinkWithRange
+- **Image** — `types/image.md`
+- **TypeScript Types** — `types/index.md`
+- **OverflowDirection** — `types/overflowDirection.md`
+- **Paint** — `types/paint.md`
+  - SolidPaint · GradientPaint · ImagePaint · ReferencePaint · ColorStop · ImageFilters
+- **Pen** — `types/penNetwork.md`
+  - PenNetwork · PenNetworkNode · Region · StrokeCap · `PenNetworkPath` · WindingRule
+- **PenPaths** — `types/penPaths.md`
+- **Reaction** — `types/reaction.md`
+- **Rect** — `types/rect.md`
+- **RGB** — `types/rgb.md`
+- **SceneNode** — `types/sceneNode.md`
+- **Style** — `types/style.md`
+  - StyleType · PaintStyle · EffectStyle · TextStyle · GridStyle · StrokeWidthStyle · PaddingStyle · SpacingStyle
+- **TeamLibrary** — `types/teamLibrary.md`
+  - PublishedTeamLibrary · TeamLibraryComponent · TeamLibraryStyle · values 中 value 的形态 · PublishStatus · DocumentationLink
+- **TextListStyle** — `types/textListStyle.md`
+  - ListType · TextListStyle
+- **TextSegStyle** — `types/textSegStyle.md`
+  - LetterSpacing · LineHeight · TextDecoration · TextCase
+- **Transform** — `types/transform.md`
+- **Transition** — `types/transition.md`
+  - TransitionType · TransitionDirection
+- **Trigger** — `types/trigger.md`
+  - TriggerType
+- **UIViewport** — `types/uiviewport.md`
+- **User** — `types/user.md`
+
+## updates/
+- **v1.7.0** — `updates/2022-11-11.md`
+  - 更新如下:
+- **v1.8.0** — `updates/2022-11-18.md`
+  - 更新如下:
+- **v1.9.0** — `updates/2022-11-24.md`
+  - 更新如下:
+- **v1.10.0** — `updates/2022-12-01.md`
+  - 更新如下:
+- **v1.10.2** — `updates/2022-12-13.md`
+  - 更新如下:
+- **v1.11.0** — `updates/2022-12-15.md`
+  - 更新如下:
+- **v1.12.0** — `updates/2022-12-20.md`
+  - 更新如下:
+- **v1.13.0** — `updates/2023-01-12.md`
+  - 更新如下:
+- **v1.14.0** — `updates/2023-02-07.md`
+  - 更新如下:
+- **v1.15.0** — `updates/2023-03-16.md`
+  - 更新如下:
+- **v1.16.0** — `updates/2023-03-21.md`
+  - 更新如下:
+- **v1.17.0** — `updates/2023-03-31.md`
+  - 更新如下:
+- **v1.18.0** — `updates/2023-04-07.md`
+  - 更新如下
+- **v1.19.0** — `updates/2023-04-11.md`
+  - 更新如下
+- **v1.20.0** — `updates/2023-04-27.md`
+  - 更新如下
+- **v1.21.0** — `updates/2023-07-06.md`
+  - 更新如下
+- **v2.0.0** — `updates/2023-09-25.md`
+  - 更新如下
+- **v2.2.0** — `updates/2023-11-30.md`
+  - 更新如下
+- **v2.3.0** — `updates/2024-02-04.md`
+  - 更新如下
+- **v2.4.0** — `updates/2024-04-25.md`
+  - 更新如下
+- **v2.6.0** — `updates/_index.md`
+  - 更新如下 · 更新如下 · 更新如下 · 更新如下 · 更新如下 · 更新如下 · 更新如下 · 更新如下
+

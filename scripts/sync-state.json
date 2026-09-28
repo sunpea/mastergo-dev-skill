@@ -1,0 +1,656 @@
+{
+ "/apis/": {
+  "hash": "7572cafb",
+  "etag": "\"6a8563d3-61bd\"",
+  "bytes": 1737,
+  "synced": "2026-09-03"
+ },
+ "/apis/booleanOperationNode": {
+  "hash": "17f6a495",
+  "etag": "\"6a8563d3-12d5d\"",
+  "bytes": 13979,
+  "synced": "2026-09-03"
+ },
+ "/apis/clientStorage": {
+  "hash": "c791b363",
+  "etag": "\"6a8563d3-57ce\"",
+  "bytes": 923,
+  "synced": "2026-09-03"
+ },
+ "/apis/codegen": {
+  "hash": "f89418ef",
+  "etag": "\"6a8563d3-aa38\"",
+  "bytes": 5370,
+  "synced": "2026-09-03"
+ },
+ "/apis/componentNode": {
+  "hash": "33c58d96",
+  "etag": "\"6a8563d3-17efc\"",
+  "bytes": 19101,
+  "synced": "2026-09-03"
+ },
+ "/apis/componentSetNode": {
+  "hash": "f18728c7",
+  "etag": "\"6a8563d3-173e5\"",
+  "bytes": 17700,
+  "synced": "2026-09-03"
+ },
+ "/apis/connectorNode": {
+  "hash": "39774c07",
+  "etag": "\"6a8563d3-ba34\"",
+  "bytes": 6887,
+  "synced": "2026-09-03"
+ },
+ "/apis/documentNode": {
+  "hash": "05fd89c9",
+  "etag": "\"6a8563d3-64e8\"",
+  "bytes": 1619,
+  "synced": "2026-09-03"
+ },
+ "/apis/ellipseNode": {
+  "hash": "1e5ae5bf",
+  "etag": "\"6a8563d3-e35a\"",
+  "bytes": 9029,
+  "synced": "2026-09-03"
+ },
+ "/apis/frameNode": {
+  "hash": "12a36049",
+  "etag": "\"6a8563d3-1421d\"",
+  "bytes": 15073,
+  "synced": "2026-09-03"
+ },
+ "/apis/groupNode": {
+  "hash": "9538907f",
+  "etag": "\"6a8563d3-12b55\"",
+  "bytes": 13719,
+  "synced": "2026-09-03"
+ },
+ "/apis/instanceNode": {
+  "hash": "8327b283",
+  "etag": "\"6a8563d3-15674\"",
+  "bytes": 16235,
+  "synced": "2026-09-03"
+ },
+ "/apis/intelligentContainerNode": {
+  "hash": "d9185184",
+  "etag": "\"6a8563d3-154b5\"",
+  "bytes": 13632,
+  "synced": "2026-09-03"
+ },
+ "/apis/lineNode": {
+  "hash": "a71c4829",
+  "etag": "\"6a8563d3-e4ae\"",
+  "bytes": 9178,
+  "synced": "2026-09-03"
+ },
+ "/apis/mastergo": {
+  "hash": "b4bfbb0d",
+  "etag": "\"6a9fb2b2-1de6d\"",
+  "bytes": 23272,
+  "synced": "2026-09-28"
+ },
+ "/apis/nodeTypes": {
+  "hash": "4732fe17",
+  "etag": "\"6a8563d3-533e\"",
+  "bytes": 1500,
+  "synced": "2026-09-03"
+ },
+ "/apis/notify": {
+  "hash": "cd5d2505",
+  "etag": "\"6a8563d3-5dcd\"",
+  "bytes": 988,
+  "synced": "2026-09-03"
+ },
+ "/apis/pageNode": {
+  "hash": "429cc7df",
+  "etag": "\"6a9fb2b2-8591\"",
+  "bytes": 3561,
+  "synced": "2026-09-28"
+ },
+ "/apis/penNode": {
+  "hash": "d0988bb6",
+  "etag": "\"6a8563d3-ed95\"",
+  "bytes": 9694,
+  "synced": "2026-09-03"
+ },
+ "/apis/polygonNode": {
+  "hash": "9d4b0a91",
+  "etag": "\"6a8563d3-e59b\"",
+  "bytes": 9027,
+  "synced": "2026-09-03"
+ },
+ "/apis/rectangleNode": {
+  "hash": "9a1e5b09",
+  "etag": "\"6a8563d3-f450\"",
+  "bytes": 9933,
+  "synced": "2026-09-03"
+ },
+ "/apis/sectionNode": {
+  "hash": "4920ef22",
+  "etag": "\"6a8563d3-fd69\"",
+  "bytes": 10844,
+  "synced": "2026-09-03"
+ },
+ "/apis/sliceNode": {
+  "hash": "7f6e55c0",
+  "etag": "\"6a8563d3-b887\"",
+  "bytes": 6623,
+  "synced": "2026-09-03"
+ },
+ "/apis/starNode": {
+  "hash": "a42a8eca",
+  "etag": "\"6a8563d3-e6c9\"",
+  "bytes": 9058,
+  "synced": "2026-09-03"
+ },
+ "/apis/textNode": {
+  "hash": "a00e9f86",
+  "etag": "\"6a8563d3-13267\"",
+  "bytes": 14237,
+  "synced": "2026-09-03"
+ },
+ "/apis/textSublayerNode": {
+  "hash": "7d61d162",
+  "etag": "\"6a8563d3-8a0a\"",
+  "bytes": 4592,
+  "synced": "2026-09-03"
+ },
+ "/apis/ui": {
+  "hash": "7bcf4bee",
+  "etag": "\"6a8563d3-6cfa\"",
+  "bytes": 2364,
+  "synced": "2026-09-03"
+ },
+ "/apis/variables": {
+  "hash": "bf571d1f",
+  "etag": "\"6a9fb2b2-2861d\"",
+  "bytes": 27515,
+  "synced": "2026-09-28"
+ },
+ "/apis/viewport": {
+  "hash": "fb7d9b49",
+  "etag": "\"6a8563d3-6890\"",
+  "bytes": 1689,
+  "synced": "2026-09-03"
+ },
+ "/apis/websocket": {
+  "hash": "a16a1566",
+  "etag": "\"6a8563d3-12847\"",
+  "bytes": 7845,
+  "synced": "2026-09-03"
+ },
+ "/devmode/component-template/component": {
+  "hash": "d88dabd3",
+  "etag": "\"6a8563d3-4a5c\"",
+  "bytes": 878,
+  "synced": "2026-09-03"
+ },
+ "/devmode/component-template/component-prop": {
+  "hash": "926e57c5",
+  "etag": "\"6a8563d3-5adf\"",
+  "bytes": 1678,
+  "synced": "2026-09-03"
+ },
+ "/devmode/component-template/component-template": {
+  "hash": "ee68c204",
+  "etag": "\"6a8563d3-486d\"",
+  "bytes": 743,
+  "synced": "2026-09-03"
+ },
+ "/devmode/component-template/guide": {
+  "hash": "165cd02e",
+  "etag": "\"6a8563d3-8438\"",
+  "bytes": 3168,
+  "synced": "2026-09-03"
+ },
+ "/devmode/component-template/icon": {
+  "hash": "c612fb86",
+  "etag": "\"6a8563d3-422f\"",
+  "bytes": 283,
+  "synced": "2026-09-03"
+ },
+ "/devmode/component-template/index": {
+  "hash": "045e13e7",
+  "etag": "\"6a8563d3-421d\"",
+  "bytes": 345,
+  "synced": "2026-09-03"
+ },
+ "/devmode/component-template/slot": {
+  "hash": "e659d96f",
+  "etag": "\"6a8563d3-4fdc\"",
+  "bytes": 759,
+  "synced": "2026-09-03"
+ },
+ "/devmode/guide/": {
+  "hash": "e6a626ac",
+  "etag": "\"6a8563d3-401a\"",
+  "bytes": 614,
+  "synced": "2026-09-03"
+ },
+ "/devmode/guide/guide": {
+  "hash": "5d765624",
+  "etag": "\"6a8563d3-4134\"",
+  "bytes": 410,
+  "synced": "2026-09-03"
+ },
+ "/devmode/guide/index": {
+  "hash": "e6a626ac",
+  "etag": "\"6a8563d3-401a\"",
+  "bytes": 614,
+  "synced": "2026-09-03"
+ },
+ "/devmode/types/dslsettings": {
+  "hash": "eb822835",
+  "etag": "\"6a8563d3-3f18\"",
+  "bytes": 122,
+  "synced": "2026-09-03"
+ },
+ "/devmode/types/index": {
+  "hash": "7371d176",
+  "etag": "\"6a8563d3-5d9f\"",
+  "bytes": 1352,
+  "synced": "2026-09-03"
+ },
+ "/devmode/types/mgdsldata": {
+  "hash": "a4c35211",
+  "etag": "\"6a8563d3-6535\"",
+  "bytes": 2045,
+  "synced": "2026-09-03"
+ },
+ "/devmode/types/mgdslfile": {
+  "hash": "346a0963",
+  "etag": "\"6a8563d3-6a27\"",
+  "bytes": 2094,
+  "synced": "2026-09-03"
+ },
+ "/devmode/types/mgnode": {
+  "hash": "7e310471",
+  "etag": "\"6a8563d3-8231\"",
+  "bytes": 3932,
+  "synced": "2026-09-03"
+ },
+ "/devmode/types/nodelayout": {
+  "hash": "72be0665",
+  "etag": "\"6a8563d3-5c8e\"",
+  "bytes": 1565,
+  "synced": "2026-09-03"
+ },
+ "/devmode/types/nodestyle": {
+  "hash": "dcda37f6",
+  "etag": "\"6a8563d3-78d6\"",
+  "bytes": 3447,
+  "synced": "2026-09-03"
+ },
+ "/devmode/types/token": {
+  "hash": "94d64a21",
+  "etag": "\"6a8563d3-584e\"",
+  "bytes": 1502,
+  "synced": "2026-09-03"
+ },
+ "/guide/intro": {
+  "hash": "8f4de0cf",
+  "etag": "\"6a8563d3-610d\"",
+  "bytes": 2503,
+  "synced": "2026-09-03"
+ },
+ "/guide/setup": {
+  "hash": "e157584f",
+  "etag": "\"6a8563d3-fdd1\"",
+  "bytes": 8290,
+  "synced": "2026-09-03"
+ },
+ "/guide/tutorials": {
+  "hash": "50c54995",
+  "etag": "\"6a8563d3-1905a\"",
+  "bytes": 13890,
+  "synced": "2026-09-03"
+ },
+ "/plugin-typings/": {
+  "hash": "1f7598de",
+  "etag": "\"6a8563d3-363b\"",
+  "bytes": 54,
+  "synced": "2026-09-03"
+ },
+ "/plugin-typings/usages": {
+  "hash": "1565387b",
+  "etag": "\"6a8563d3-39cc\"",
+  "bytes": 184,
+  "synced": "2026-09-03"
+ },
+ "/rest-api/": {
+  "hash": "b1a2713f",
+  "etag": "\"6a8563d3-885e3\"",
+  "bytes": 125645,
+  "synced": "2026-09-03"
+ },
+ "/types/": {
+  "hash": "2cf2fea8",
+  "etag": "\"6a8563d4-4933\"",
+  "bytes": 414,
+  "synced": "2026-09-03"
+ },
+ "/types/action": {
+  "hash": "2c63639e",
+  "etag": "\"6a8563d3-591e\"",
+  "bytes": 1116,
+  "synced": "2026-09-03"
+ },
+ "/types/arcData": {
+  "hash": "2f46ecff",
+  "etag": "\"6a8563d3-510d\"",
+  "bytes": 590,
+  "synced": "2026-09-03"
+ },
+ "/types/blend": {
+  "hash": "21a11f0e",
+  "etag": "\"6a8563d4-51eb\"",
+  "bytes": 703,
+  "synced": "2026-09-03"
+ },
+ "/types/childrenMixin": {
+  "hash": "dc573df3",
+  "etag": "\"6a8563d4-637b\"",
+  "bytes": 1529,
+  "synced": "2026-09-03"
+ },
+ "/types/componentPropertiesRelated": {
+  "hash": "a62cf7bd",
+  "etag": "\"6a8563d4-f6fc\"",
+  "bytes": 8133,
+  "synced": "2026-09-03"
+ },
+ "/types/connectorEndpoint": {
+  "hash": "16e3f328",
+  "etag": "\"6a8563d4-53e9\"",
+  "bytes": 666,
+  "synced": "2026-09-03"
+ },
+ "/types/constraints": {
+  "hash": "2da012a4",
+  "etag": "\"6a8563d4-50f9\"",
+  "bytes": 684,
+  "synced": "2026-09-03"
+ },
+ "/types/dropEvent": {
+  "hash": "27e92dbd",
+  "etag": "\"6a8563d4-4faa\"",
+  "bytes": 535,
+  "synced": "2026-09-03"
+ },
+ "/types/easing": {
+  "hash": "7a4b0a14",
+  "etag": "\"6a8563d4-525a\"",
+  "bytes": 682,
+  "synced": "2026-09-03"
+ },
+ "/types/effect": {
+  "hash": "0b1f7178",
+  "etag": "\"6a8563d4-795d\"",
+  "bytes": 3033,
+  "synced": "2026-09-03"
+ },
+ "/types/exportSettings": {
+  "hash": "c48122b2",
+  "etag": "\"6a8563d4-67fc\"",
+  "bytes": 1983,
+  "synced": "2026-09-03"
+ },
+ "/types/flowStartingPoint": {
+  "hash": "dec55a55",
+  "etag": "\"6a8563d4-4a82\"",
+  "bytes": 235,
+  "synced": "2026-09-03"
+ },
+ "/types/font": {
+  "hash": "6405bb8a",
+  "etag": "\"6a8563d4-4ed2\"",
+  "bytes": 413,
+  "synced": "2026-09-03"
+ },
+ "/types/hyperlink": {
+  "hash": "3ed2b9ce",
+  "etag": "\"6a8563d4-4ed0\"",
+  "bytes": 485,
+  "synced": "2026-09-03"
+ },
+ "/types/image": {
+  "hash": "bcf07fbb",
+  "etag": "\"6a8563d4-4a11\"",
+  "bytes": 166,
+  "synced": "2026-09-03"
+ },
+ "/types/index": {
+  "hash": "2cf2fea8",
+  "etag": "\"6a8563d4-4933\"",
+  "bytes": 414,
+  "synced": "2026-09-03"
+ },
+ "/types/overflowDirection": {
+  "hash": "df40692e",
+  "etag": "\"6a8563d4-4a87\"",
+  "bytes": 229,
+  "synced": "2026-09-03"
+ },
+ "/types/paint": {
+  "hash": "3fa93ce0",
+  "etag": "\"6a8563d4-7fa4\"",
+  "bytes": 3655,
+  "synced": "2026-09-03"
+ },
+ "/types/penNetwork": {
+  "hash": "0203ddba",
+  "etag": "\"6a8563d4-677b\"",
+  "bytes": 1843,
+  "synced": "2026-09-03"
+ },
+ "/types/penPaths": {
+  "hash": "3f1242a9",
+  "etag": "\"6a8563d4-496f\"",
+  "bytes": 218,
+  "synced": "2026-09-03"
+ },
+ "/types/reaction": {
+  "hash": "34869e80",
+  "etag": "\"6a8563d4-4a38\"",
+  "bytes": 242,
+  "synced": "2026-09-03"
+ },
+ "/types/rect": {
+  "hash": "6e2e24c9",
+  "etag": "\"6a8563d4-49e4\"",
+  "bytes": 176,
+  "synced": "2026-09-03"
+ },
+ "/types/rgb": {
+  "hash": "7b727e6e",
+  "etag": "\"6a8563d4-4cc2\"",
+  "bytes": 231,
+  "synced": "2026-09-03"
+ },
+ "/types/sceneNode": {
+  "hash": "3b76d7ed",
+  "etag": "\"6a8563d4-540d\"",
+  "bytes": 1607,
+  "synced": "2026-09-03"
+ },
+ "/types/style": {
+  "hash": "4e14eff1",
+  "etag": "\"6a9fb2b3-8920\"",
+  "bytes": 4337,
+  "synced": "2026-09-28"
+ },
+ "/types/teamLibrary": {
+  "hash": "cb821601",
+  "etag": "\"6a9fb2b3-9439\"",
+  "bytes": 4912,
+  "synced": "2026-09-28"
+ },
+ "/types/textListStyle": {
+  "hash": "5c9c56fd",
+  "etag": "\"6a8563d4-4ffd\"",
+  "bytes": 504,
+  "synced": "2026-09-03"
+ },
+ "/types/textSegStyle": {
+  "hash": "1495c1d2",
+  "etag": "\"6a8563d4-650d\"",
+  "bytes": 1882,
+  "synced": "2026-09-03"
+ },
+ "/types/transform": {
+  "hash": "963cfe67",
+  "etag": "\"6a8563d4-4a91\"",
+  "bytes": 119,
+  "synced": "2026-09-03"
+ },
+ "/types/transition": {
+  "hash": "7b40f978",
+  "etag": "\"6a8563d4-567a\"",
+  "bytes": 941,
+  "synced": "2026-09-03"
+ },
+ "/types/trigger": {
+  "hash": "5ce93c1c",
+  "etag": "\"6a8563d4-507e\"",
+  "bytes": 557,
+  "synced": "2026-09-03"
+ },
+ "/types/uiviewport": {
+  "hash": "4770c592",
+  "etag": "\"6a8563d4-5138\"",
+  "bytes": 796,
+  "synced": "2026-09-03"
+ },
+ "/types/user": {
+  "hash": "05134a45",
+  "etag": "\"6a8563d4-4ba7\"",
+  "bytes": 333,
+  "synced": "2026-09-03"
+ },
+ "/updates/": {
+  "hash": "d7b88f01",
+  "etag": "\"6a8563d4-c01f\"",
+  "bytes": 10479,
+  "synced": "2026-09-03"
+ },
+ "/updates/2022-11-11": {
+  "hash": "f87f12cb",
+  "etag": "\"6a8563d4-433d\"",
+  "bytes": 477,
+  "synced": "2026-09-03"
+ },
+ "/updates/2022-11-18": {
+  "hash": "358abb2d",
+  "etag": "\"6a8563d4-4e2a\"",
+  "bytes": 517,
+  "synced": "2026-09-03"
+ },
+ "/updates/2022-11-24": {
+  "hash": "be0e7c56",
+  "etag": "\"6a8563d4-462a\"",
+  "bytes": 639,
+  "synced": "2026-09-03"
+ },
+ "/updates/2022-12-01": {
+  "hash": "77d0b9a9",
+  "etag": "\"6a8563d4-5757\"",
+  "bytes": 799,
+  "synced": "2026-09-03"
+ },
+ "/updates/2022-12-13": {
+  "hash": "9f27f4c2",
+  "etag": "\"6a8563d4-43c9\"",
+  "bytes": 303,
+  "synced": "2026-09-03"
+ },
+ "/updates/2022-12-15": {
+  "hash": "d67de5c3",
+  "etag": "\"6a8563d4-5b1c\"",
+  "bytes": 1131,
+  "synced": "2026-09-03"
+ },
+ "/updates/2022-12-20": {
+  "hash": "f3dd8e70",
+  "etag": "\"6a8563d4-4366\"",
+  "bytes": 204,
+  "synced": "2026-09-03"
+ },
+ "/updates/2023-01-12": {
+  "hash": "7d40293a",
+  "etag": "\"6a8563d4-4cab\"",
+  "bytes": 1592,
+  "synced": "2026-09-03"
+ },
+ "/updates/2023-02-07": {
+  "hash": "e07ec22a",
+  "etag": "\"6a8563d4-42c6\"",
+  "bytes": 135,
+  "synced": "2026-09-03"
+ },
+ "/updates/2023-03-16": {
+  "hash": "e88a5510",
+  "etag": "\"6a8563d4-433b\"",
+  "bytes": 209,
+  "synced": "2026-09-03"
+ },
+ "/updates/2023-03-21": {
+  "hash": "13893363",
+  "etag": "\"6a8563d4-4317\"",
+  "bytes": 220,
+  "synced": "2026-09-03"
+ },
+ "/updates/2023-03-31": {
+  "hash": "5198b929",
+  "etag": "\"6a8563d4-4804\"",
+  "bytes": 1062,
+  "synced": "2026-09-03"
+ },
+ "/updates/2023-04-07": {
+  "hash": "8ff03284",
+  "etag": "\"6a8563d4-4320\"",
+  "bytes": 194,
+  "synced": "2026-09-03"
+ },
+ "/updates/2023-04-11": {
+  "hash": "dd303aff",
+  "etag": "\"6a8563d4-42f3\"",
+  "bytes": 181,
+  "synced": "2026-09-03"
+ },
+ "/updates/2023-04-27": {
+  "hash": "1c4bc039",
+  "etag": "\"6a8563d4-4369\"",
+  "bytes": 274,
+  "synced": "2026-09-03"
+ },
+ "/updates/2023-07-06": {
+  "hash": "31d1c758",
+  "etag": "\"6a8563d4-431c\"",
+  "bytes": 223,
+  "synced": "2026-09-03"
+ },
+ "/updates/2023-09-25": {
+  "hash": "01d9fada",
+  "etag": "\"6a8563d4-42f8\"",
+  "bytes": 185,
+  "synced": "2026-09-03"
+ },
+ "/updates/2023-11-30": {
+  "hash": "84312f7a",
+  "etag": "\"6a8563d4-4293\"",
+  "bytes": 116,
+  "synced": "2026-09-03"
+ },
+ "/updates/2024-02-04": {
+  "hash": "78befbd2",
+  "etag": "\"6a8563d4-4370\"",
+  "bytes": 226,
+  "synced": "2026-09-03"
+ },
+ "/updates/2024-04-25": {
+  "hash": "ad5b5a19",
+  "etag": "\"6a8563d4-41e0\"",
+  "bytes": 282,
+  "synced": "2026-09-03"
+ }
+}
